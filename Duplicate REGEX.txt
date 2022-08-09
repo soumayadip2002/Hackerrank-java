@@ -1,0 +1,10 @@
+regex = "\\b(\\w+)(?:\\W+\\1\\b)+";
+The details of the above regular expression can be understood as: 
+“\\b”: A word boundary. Boundaries are needed for special cases. For example, in “My thesis is great”, “is” wont be matched twice.
+“\\w+” A word character: [a-zA-Z_0-9] 
+ 
+“\\W+”: A non-word character: [^\w] 
+ 
+“\\1”: Matches whatever was matched in the 1st group of parentheses, which in this case is the (\w+) 
+ 
+“+”: Match whatever it’s placed after 1 or more times 
