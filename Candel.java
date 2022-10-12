@@ -1,5 +1,5 @@
 import java.util.*;
-public class Candel {
+public class CandelCount {
     public static void main(String[] x){
         try (Scanner sc = new Scanner(System.in)) {
             int num = sc.nextInt();
