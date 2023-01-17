@@ -1,9 +1,5 @@
 import java.util.*;
-<<<<<<< HEAD
 public class Candel {
-=======
-public class CandelCount {
->>>>>>> origin/main
     public static void main(String[] x){
         try (Scanner sc = new Scanner(System.in)) {
             int num = sc.nextInt();
@@ -22,7 +18,6 @@ public class CandelCount {
                     count++;
                 }
             }
-            System.out.println(max);
             System.out.println(count);
         }
     }
