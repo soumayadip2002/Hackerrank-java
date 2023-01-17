@@ -6,7 +6,7 @@ class IP_Address{
         try (Scanner in = new Scanner(System.in)) {
             while(in.hasNext()){
                 String IP = in.next();
-                System.out.println(IP.matches(new MyRegex().pattern));
+                System.out.println(IP.matches(new myRegex().pattern));
             }
         }
     }
